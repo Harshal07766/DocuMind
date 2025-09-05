@@ -1,5 +1,6 @@
 {
   "version": 2,
+  "name": "documind-harshal-ai",
   "builds": [
     {
       "src": "api/test.py",
@@ -14,10 +15,5 @@
   ],
   "env": {
     "SYSTEM_MODE": "professional"
-  },
-  "functions": {
-    "api/test.py": {
-      "maxDuration": 10
-    }
   }
 }
