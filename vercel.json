@@ -3,14 +3,14 @@
   "name": "documind-harshal-ai",
   "builds": [
     {
-      "src": "api/test.py",
+      "src": "api/hello.py",
       "use": "@vercel/python"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "api/test.py"
+      "dest": "api/hello.py"
     }
   ],
   "env": {
