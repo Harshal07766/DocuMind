@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: documind-ai
+    env: python
+    buildCommand: pip install -r requirements.txt && pip install pytesseract pillow
+    startCommand: python documind_main.py
+    envVars:
+      - key: VECTOR_DB_PROVIDER
+        value: pinecone
+      - key: RERANKER_PROVIDER
+        value: cohere
+      - key: PORT
+        value: 8000
+      - key: HOST
+        value: 0.0.0.0
