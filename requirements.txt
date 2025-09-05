@@ -1,9 +1,2 @@
-# DocuMind AI - Minimal Requirements for Vercel Serverless
-# Only essential dependencies that fit within 250MB limit
-
-# Core web framework (minimal)
-fastapi>=0.100.0
-uvicorn>=0.20.0
-
-# Essential utilities
-python-dotenv>=1.0.0
+# Minimal requirements for Vercel serverless
+# No dependencies needed for basic function
