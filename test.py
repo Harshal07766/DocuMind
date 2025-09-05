@@ -1,9 +1,9 @@
 """
-Minimal test function for Vercel
+Ultra-minimal Vercel function
 """
 def handler(request):
     return {
         'statusCode': 200,
-        'headers': {'Content-Type': 'application/json'},
-        'body': '{"message": "Hello from Vercel!", "status": "ok"}'
+        'headers': {'Content-Type': 'text/html'},
+        'body': '<h1>DocuMind AI - Working!</h1><p>Serverless function is running successfully.</p>'
     }
