@@ -1,0 +1,66 @@
+# DocuMind AI - Full Requirements for Docker Deployment
+# Core FastAPI and web framework
+fastapi>=0.100.0
+uvicorn[standard]>=0.20.0
+gunicorn>=20.0.0
+python-multipart>=0.0.5
+python-dotenv>=1.0.0
+
+# Essential AI libraries
+openai>=1.40.0
+google-generativeai>=0.3.0
+
+# Essential vector databases (pick one primary)
+pinecone-client>=2.2.0
+
+# Essential text processing
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-openai>=0.1.0
+
+# HTTP client
+httpx>=0.24.0
+requests>=2.30.0
+
+# Essential data processing (flexible versions for Docker compatibility)
+numpy>=1.21.0
+pandas>=2.0.0
+
+# Essential document processing
+PyMuPDF>=1.23.0
+python-docx>=1.1.0
+Pillow>=10.0.0
+
+# Essential search
+rank-bm25>=0.2.2
+
+# Essential utilities
+tldextract>=5.1.0
+
+# Optional: Additional vector databases (uncomment if needed)
+# weaviate-client>=4.0.0
+# qdrant-client>=1.15.0
+# supabase>=2.0.0
+
+# Optional: Additional AI features (uncomment if needed)
+# sentence-transformers>=2.2.2
+# transformers>=4.30.0
+# torch>=2.0.0
+
+# Optional: Additional document processing (uncomment if needed)
+# python-pptx>=0.6.20
+# openpyxl>=3.1.0
+# pytesseract>=0.3.10
+
+# Optional: Additional services (uncomment if needed)
+# cohere>=4.37
+# astrapy>=0.7.0
+# redis>=5.0.0
+
+# Optional: Database (uncomment if needed)
+# SQLAlchemy>=2.0.0
+# psycopg2-binary>=2.9.0
+
+# Development and testing (uncomment if needed)
+# pytest>=7.4.0
+# pytest-asyncio>=0.21.0
